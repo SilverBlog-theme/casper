@@ -5,7 +5,7 @@
 /* globals jQuery, document */
 (function ($, undefined) {
     "use strict";
-
+    $(".main-header").lazyload({effect: "fadeIn"});
     var $document = $(document);
 
     $document.ready(function () {
@@ -16,7 +16,6 @@
             e.preventDefault();
             $("body").toggleClass("nav-opened nav-closed");
         });
-        $(".main-header").lazyload({effect: "fadeIn"});
     });
 
     // Arctic Scroll by Paul Adam Davis
