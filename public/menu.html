@@ -8,7 +8,7 @@
             {% if "absolute" in item %}
                 {% set url = item.absolute %}
             {% else %}
-                {% set url = item.name %}
+                {% set url = "/"+item.name %}
             {% endif %}
             <li class="nav-" role="presentation"><a
                     href="{{url}}{% if static %}.html{% endif %}">{{ item.title }}</a>
