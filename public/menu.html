@@ -4,6 +4,7 @@
         <span class="hidden">关闭</span>
     </a>
     <ul>
+        <li><a class="nav-" role="presentation" href="/index{% if static %}.html{% endif %}">主页</a></li>
         {% for item in menu_list %}
             {% if "absolute" in item %}
                 {% set url = item.absolute %}
