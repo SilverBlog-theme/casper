@@ -8,7 +8,7 @@ if [ ! -d "casper" ]; then
     cd casper
 fi
 ln -s $(pwd)/static ../static/casper
-if [ -f "config.json" ]; then
+if [ -f "config.example.json" ]; then
     cp config.example.json config.json
     vim config.json
 fi
