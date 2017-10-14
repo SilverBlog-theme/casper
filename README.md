@@ -4,7 +4,12 @@ This is a version of the migration for SilverBlog
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/).
 
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+## Download
+
+```shell
+cd templates
+curl https://raw.githubusercontent.com/SilverBlogTeam/capser/master/install.sh | bash
+```
 
 ## Copyright & License
 
