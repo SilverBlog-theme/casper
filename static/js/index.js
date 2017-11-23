@@ -5,7 +5,6 @@
 /* globals jQuery, document */
 (function ($, undefined) {
     "use strict";
-    $(".main-header").lazyload({effect: "fadeIn"});
     var $document = $(document);
 
     $document.ready(function () {
