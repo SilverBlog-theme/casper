@@ -4,7 +4,7 @@ if [ $(basename `pwd`) != "templates" ];then
     exit
 fi
 if [ ! -d "casper" ]; then
-    git clone https://github.com/SilverBlogTeam/casper.git --depth 1
+    git clone https://github.com/SilverBlogTheme/casper.git --depth 1
     cd casper
 fi
 ln -s $(pwd)/static ../static/casper
