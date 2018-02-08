@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
+templates_name="capser"
 if [ $(basename `pwd`) != "templates" ];then
     echo "[Error] Please do this in the templates directory!"
     exit
 fi
-if [ ! -d "casper" ]; then
-    git clone https://github.com/SilverBlogTheme/casper.git --depth 1
+if [ ! -d ${templates_name} ]; then
+    git clone https://github.com/SilverBlogTeam/${templates_name}.git
 fi
-ln -sv ../casper/static ./static/casper
-cd casper
-if [ -f "config.example.json" ]; then
+ln -sv ../${templates_name}/static ./static/${templates_name}
+cd ${templates_name}
+if [ -f "config.json" ]; then
     cp config.example.json config.json
     vim config.json
 fi
