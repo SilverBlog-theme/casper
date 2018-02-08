@@ -5,9 +5,9 @@ if [ $(basename `pwd`) != "templates" ];then
 fi
 if [ ! -d "casper" ]; then
     git clone https://github.com/SilverBlogTheme/casper.git --depth 1
-    cd casper
 fi
-ln -s $(pwd)/static ../static/casper
+ln -sv ../casper/static ./static/casper
+cd casper
 if [ -f "config.example.json" ]; then
     cp config.example.json config.json
     vim config.json
