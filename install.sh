@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-templates_name="capser"
+templates_name="casper"
 if [ $(basename `pwd`) != "templates" ];then
     echo "[Error] Please do this in the templates directory!"
     exit
