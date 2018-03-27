@@ -5,16 +5,16 @@
     </a>
     <ul>
         <li><a class="nav-" role="presentation" href="/">主页</a></li>
-        {% for item in menu_list %}
-            {% if "absolute" in item %}
-                {% set url = item.absolute %}
+        {%- for item in menu_list -%}
+            {%- if "absolute" in item -%}
+                {%- set url = item.absolute -%}
             {% else %}
-                {% set url = "/"+item.name %}
-            {% endif %}
+                {%- set url = "/"+item.name -%}
+            {%- endif -%}
             <li class="nav-" role="presentation"><a
                     href="{{url}}">{{ item.title }}</a>
             </li>
-        {% endfor %}
+        {%- endfor -%}
 
     </ul>
     <a class="subscribe-button icon-feed" href="/rss">订阅</a>
