@@ -9,7 +9,7 @@
             {%- if "absolute" in item -%}
                 {%- set url = item.absolute -%}
             {% else %}
-                {%- set url = "/"+item.name -%}
+                {%- set url = "/post/"+item.name -%}
             {%- endif -%}
             <li class="nav-" role="presentation"><a
                     href="{{url}}">{{ item.title }}</a>
