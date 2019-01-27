@@ -1,0 +1,8 @@
+{
+  "jquery.min.js": "https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js",
+  "bplayer.min.js":"https://cdn.jsdelivr.net/npm/bplayer@1.0.7/dist/bplayer.min.js",
+  "bp_init.js": "https://cdn.jsdelivr.net/npm/bplayer@1.0.7/dist/bp_init.js",
+  "highlight.min.js": "https://cdn.jsdelivr.net/npm/highlight.js@9.13.1/lib/highlight.min.js",
+  "index.js": "/static/casper/js/index.js",
+  "screen.css": "/static/casper/css/screen.css"
+}

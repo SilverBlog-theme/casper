@@ -1,8 +1,8 @@
-<script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.10.0/highlight.min.js"></script>
-<script type="text/javascript" src="/static/{{ system_config.Theme }}/js/index.js"></script>
-<script src="https://cdn.silverblog.org/bplayer/bplayer.min.js"></script>
-<script src="https://cdn.silverblog.org/bplayer/bp_init.js"></script>
+<script type="text/javascript" src="{{ static_file['jquery.min.js'] }}"></script>
+<script src="{{ static_file['highlight.min.js'] }}"></script>
+<script type="text/javascript" src="{{ static_file['index.js'] }}"></script>
+<script src="{{static_file['bplayer.min.js']}}"></script>
+<script src="{{static_file['bp_init.js']}}"></script>
 {% include "include/foot.html" ignore missing %}
 </body>
 </html>

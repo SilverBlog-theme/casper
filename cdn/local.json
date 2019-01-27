@@ -1,0 +1,8 @@
+{
+  "jquery.min.js": "/static/casper/library/jquery.min.js",
+  "bplayer.min.js":"/static/casper/library/bplayer/bplayer.min.js",
+  "bp_init.js": "/static/casper/library/bp_init.js",
+  "highlight.min.js": "/static/casper/library/highlight.js/highlight.min.js",
+  "index.js": "/static/casper/js/index.js",
+  "screen.css": "/static/casper/css/screen.css"
+}
