@@ -4,5 +4,6 @@
   "bp_init.js": "https://cdn.jsdelivr.net/npm/bplayer@1.0.7/dist/bp_init.js",
   "highlight.min.js": "https://cdn.jsdelivr.net/npm/highlight.js@9.13.1/lib/highlight.min.js",
   "index.js": "/static/casper/js/index.js",
-  "screen.css": "/static/casper/css/screen.css"
+  "screen.css": "/static/casper/css/screen.css",
+  "github.css": "/static/clearision/library/highlight.js/github.css"
 }

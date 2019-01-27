@@ -4,5 +4,6 @@
   "bp_init.js": "/static/casper/library/bp_init.js",
   "highlight.min.js": "/static/casper/library/highlight.js/highlight.min.js",
   "index.js": "/static/casper/js/index.js",
-  "screen.css": "/static/casper/css/screen.css"
+  "screen.css": "/static/casper/css/screen.css",
+  "github.css": "https://cdn.jsdelivr.net/npm/highlight.js@9.13.1/styles/github.css"
 }
