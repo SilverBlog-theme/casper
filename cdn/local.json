@@ -5,5 +5,7 @@
   "highlight.min.js": "/static/casper/library/highlight.js/highlight.min.js",
   "index.js": "/static/casper/js/index.js",
   "screen.css": "/static/casper/css/screen.css",
-  "github.css": "/static/casper/library/highlight.js/github.css"
+  "screen-dark.css": "/static/casper/css/screen-dark.css",
+  "github.min.css": "/static/casper/library/highlight.js/github.min.css",
+  "tomorrow-night-bright.min.css": "/static/casper/library/highlight.js/tomorrow-night-bright.min.css"
 }

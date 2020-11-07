@@ -5,6 +5,8 @@
   "highlight.min.js": "https://cdn.jsdelivr.net/npm/highlight.js@9.13.1/lib/highlight.min.js",
   "index.js": "/static/casper/js/index.js",
   "screen.css": "/static/casper/css/screen.css",
-  "github.css": "https://cdn.jsdelivr.net/npm/highlight.js@9.13.1/styles/github.css"
+  "screen-dark.css": "/static/casper/css/screen-dark.css",
+  "github.min.css": "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.3.2/build/styles/github.min.css",
+  "tomorrow-night-bright.min.css": "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.3.2/build/styles/tomorrow-night-bright.min.css"
 
 }

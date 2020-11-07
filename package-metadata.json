@@ -7,9 +7,14 @@
   "homepage": "https://github.com/silverblog-theme/casper",
   "download": [
     {
-      "url": "https://cdn.jsdelivr.net/npm/highlight.js@9.13.1/styles/github.css",
+      "url": "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.3.2/build/styles/github.min.css",
       "path": "highlight.js",
-      "filename": "github.css"
+      "filename": "github.min.css"
+    },
+    {
+      "url": "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.3.2/build/styles/tomorrow-night-bright.min.css",
+      "path": "highlight.js",
+      "filename": "tomorrow-night-bright.min.css"
     },
     {
       "url": "https://cdn.jsdelivr.net/npm/highlight.js@9.13.1/lib/highlight.min.js",
